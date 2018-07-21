@@ -1,0 +1,24 @@
+/*colors to use:*/
+/* #3498db; */
+/* #f1c40f */
+/*The purpose of this is to demo CSS Translations*/
+
+p { 
+  width: 50px;
+  height: 50px;
+  background-color: #1abc9c;
+}
+
+p.move-right {
+  background-color: #3498db;
+  transform: translateX(100px);
+}
+
+p.move-down {
+  background-color: #f1c40f;
+  transform: translateY(20px);
+}
+
+p:hover {
+  transform: translate(20px, 20px);
+}
